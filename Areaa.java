@@ -8,7 +8,6 @@ public class Areaa {
         casos=read.nextInt();
         read.nextLine();
         while(casos>0){
-            //read.nextLine();
             operador=read.nextLine();
             String[] parts = operador.split(" ");
             if("circle".equals(parts[0])){
